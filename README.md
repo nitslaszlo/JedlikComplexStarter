@@ -1,7 +1,7 @@
 # Jedlik Complex Starter
 
 ## netlify link a program teszteléséhez:
-https://ecstatic-swirles-d68c4f.netlify.com/
+https://stoic-euclid-0535e9.netlify.com/
 
 ## Projektekben használt technológiák / megoldások:
 =================================================
