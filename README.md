@@ -3,7 +3,7 @@
 ## netlify link a program teszteléséhez:
 https://stoic-euclid-0535e9.netlify.com/
 
-## Projektekben használt technológiák / megoldások:
+## Sablonban használt technológiák / megoldások:
 =================================================
 1. Frontend:
     - Vue.js (https://vuejs.org/)
@@ -18,7 +18,6 @@ https://stoic-euclid-0535e9.netlify.com/
     - Prettier - Code formatter (https://prettier.io/)
     - VUE CLI 3 (https://cli.vuejs.org/)
     - Jest (https://jestjs.io/)
-
 
 ## Fejlesztői környezet telepítése, beállítása (Windows)
 1.  Node.js (pl.: node-v10.15.3-x64.msi) letöltése, telepítése:<br>
@@ -55,13 +54,16 @@ https://stoic-euclid-0535e9.netlify.com/
     - npm Intellisense<br>
     https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
 
-    - Spell Right<br>
+    - Prettier - Code formatter<br>
+    https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+    - Spell Right (telepítése opcionális, angol-magyar helyesírásellenőrzés)<br>
     https://marketplace.visualstudio.com/items?itemName=ban.spellright
 
     - Vetur<br>
     https://marketplace.visualstudio.com/items?itemName=octref.vetur
 
-    - vscode-pdf<br>
+    - vscode-pdf (telepítése opcionális, beépülő PDF olvasó)<br>
     https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf
 
     - további kiterjesztések telepítése igény szerint
@@ -78,34 +80,6 @@ https://stoic-euclid-0535e9.netlify.com/
     Nyomkövetéskor (F5) induló Chrome-nál is telepíteni kell! Link:<br>
     https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
 7.  Opcionális: VSCode beállítása: lsd. az oldal végén
-
-## Új projekt létrehozása
-1. CMD.EXE (Parancssor futtatása)
-2. Projekt szülőmappájának aktuálissá tétele (pl.: CD D:\VueJsProjects)
-3. "vue create my-first-vuejs-app" parancs futtatása (idézőjelek nélkül, nem lehet nagybetű), lépések:
-    - Manually select features
-    - Beállít (*), a többi üres ( ):
-        - (*) TypeScript
-        - (*) Linter / Formatter
-    - Use class-style component syntax? (Y/n) Y
-    - Use Babel alongside TypeScript for auto-detected polyfills? (y/N) N
-    - Pick a linter / formatter config: TSLint
-    - Pick additional lint features: 
-        - (*) Lint on save
-        - ( ) Lint and fix on commit
-    - Where do you prefer placing config for Babel, PostCSS, ESLint, etc.?: In dedicated config files
-    - Save this as a preset for future projects? (y/N) N
-4. VSCode indítása, projekt mappa (my-first-vuejs-app) megnyitása:
-    - File\Open Folder... (vagy)
-    - Project mappa helyi menüjéből: Open with Code
-    - Vagy CMD ablakból: CD my-first-vuejs-app majd "code ."
-5. ESLint "recommended" szabályok módosítása<br>
-    A "recommended" szabályok (rules) vannak bekapcsolva.<br>
-    Módosítani a tslint.json állományokban lehet őket a rules szekcióban<br>
-    Szabályok és leírásuk: https://palantir.github.io/tslint/rules/
-6. package.json, tsconfig.json, .gitignore, launch.json, settings.json, tasks.json<br>
-   állományok létrehozása/beállítása a "jedlikes starter template" szerint
-
 
 ## Fejlesztés, tesztelés
 1.  VSCode indítása (utoljára megnyitott projektet visszatölti), vagy<br>
@@ -127,6 +101,9 @@ https://stoic-euclid-0535e9.netlify.com/
     "npm run build"
 7.  Formázási hibák ellenőrzése és javítása: (opcionális)<br>
     "npm run lint"
+8.  Jest - Unit tesztek futtatása<br>
+    "npm run test:unit"<br>
+    (vagy Ctrl-Shift-T -> task.json kell a minta szerinti tartalommal + bill.kombináció hozzárendelés)<br>
 
 
 ## Hasznos linkek:
