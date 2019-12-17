@@ -1,0 +1,41 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "@vue/airbnb",
+    "@vue/typescript"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "jest": true,
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "overrides": [
+    {
+      "files": ["**/__tests__/*.{j,t}s?(x)", "**/tests/unit/**/*.spec.{j,t}s?(x)"],
+      "env": {
+        "jest": true
+      }
+    }
+  ],
+  "rules": {
+    "max-len":"off",
+    "lines-between-class-members":"off",
+    "no-plusplus":"off",
+    "arrow-parens":"off",
+    "comma-dangle": ["error", "never"],
+    "no-return-assign":"off",
+    "linebreak-style": ["error", "windows"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "space-before-function-paren": ["error", "never"],
+    "unicode-bom": ["error", "never"]
+  }
+}

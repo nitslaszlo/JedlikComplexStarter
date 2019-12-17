@@ -1,7 +1,7 @@
 // import MyModule from "@/store/MyModule";
-import VuexDemoModule from "@/store/VuexDemoStore";
 import Vue from "vue";
 import Vuex from "vuex";
+import VuexDemoModule from "@/store/VuexDemoStore";
 
 Vue.use(Vuex);
 

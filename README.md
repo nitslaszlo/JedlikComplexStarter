@@ -15,7 +15,6 @@ https://stoic-euclid-0535e9.netlify.com/
 2. Frontend development:
     - TypeScript (http://www.typescriptlang.org/)
     - ES Lint (https://eslint.org/)
-    - Prettier - Code formatter (https://prettier.io/)
     - VUE CLI 3 (https://cli.vuejs.org/)
     - Jest (https://jestjs.io/)
 

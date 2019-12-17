@@ -5,8 +5,8 @@
 </template>
 
 <script lang="ts">
-import VuexDemoComp from "@/components/VuexDemoComp.vue"; // @ is an alias to /src
 import { Component, Vue } from "vue-property-decorator";
+import VuexDemoComp from "@/components/VuexDemoComp.vue"; // @ is an alias to /src
 
 @Component({
   components: {

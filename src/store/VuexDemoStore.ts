@@ -1,9 +1,11 @@
-import { Action, Module, Mutation, VuexModule } from "vuex-module-decorators";
+import {
+  Action, Module, Mutation, VuexModule
+} from "vuex-module-decorators";
 
 @Module
 export default class VuexDemoStore extends VuexModule {
   // State:
-  private totalTvCount: number = 10;
+  private totalTvCount = 10;
 
   // Getters
   public get getTotalTvCount(): number {
@@ -11,7 +13,7 @@ export default class VuexDemoStore extends VuexModule {
   }
 
   @Action
-  public async removeTv(amount: number) {
+  public async removeTv(amount: number): Promise<void> {
     if (this.totalTvCount >= amount) {
       // If we enough TVs, ask Jenny to remove it
       this.context.commit("removeTvMut", amount);

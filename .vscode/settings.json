@@ -44,5 +44,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "prettier.printWidth": 120
+  "prettier.printWidth": 180,
+  "prettier.endOfLine": "crlf"
 }
