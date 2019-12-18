@@ -1,6 +1,5 @@
 {
   "printWidth": 120,
-  "space-before-fuction-paren": false,
   "eslintIntegration": true,
   "stylelintIntegration": true
 }
