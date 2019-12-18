@@ -3,7 +3,7 @@
     "node": true,
     "es6": true
   },
-  "extends": ["plugin:vue/essential", "@vue/prettier", "@vue/typescript", "prettier"],
+  "extends": ["plugin:vue/recommended", "@vue/prettier", "@vue/typescript", "prettier"],
   "globals": {
     "Atomics": "readonly",
     "jest": true,
