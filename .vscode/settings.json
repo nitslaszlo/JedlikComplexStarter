@@ -2,23 +2,27 @@
   "editor.minimap.enabled": false,
   "eslint.alwaysShowStatus": true,
   "eslint.enable": true,
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
-  "vetur.validation.template": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "vue"
+  ],
   "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[javascriptreact]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[typescript]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[typescriptreact]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[vue]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "spellright.language": ["en", "hu"],
   "spellright.documentTypes": ["latex"],
@@ -43,7 +47,5 @@
   "git.autofetch": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  },
-  "prettier.printWidth": 180,
-  "prettier.endOfLine": "crlf"
+  }
 }
