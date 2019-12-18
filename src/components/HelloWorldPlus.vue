@@ -4,7 +4,7 @@
       <div class="input-group-prepend">
         <span class="input-group-text">Kérem a neved</span>
       </div>
-      <input v-model="nev" type="text" class="form-control">
+      <input v-model="nev" type="text" class="form-control" />
     </div>
 
     <h1>Hello {{ nev }}{{ felkialtojelek }}</h1>

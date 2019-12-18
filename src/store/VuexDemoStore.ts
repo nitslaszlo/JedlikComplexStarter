@@ -1,6 +1,4 @@
-import {
-  Action, Module, Mutation, VuexModule
-} from "vuex-module-decorators";
+import { Action, Module, Mutation, VuexModule } from "vuex-module-decorators";
 
 @Module
 export default class VuexDemoStore extends VuexModule {
