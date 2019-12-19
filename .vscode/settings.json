@@ -39,7 +39,8 @@
     "**/public": false,
     "**/node_modules": true,
     "**/*.js.map": true,
-    "**/*.npmrc": true
+    "**/*.npmrc": true,
+    "**/*shims*": true
   },
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
