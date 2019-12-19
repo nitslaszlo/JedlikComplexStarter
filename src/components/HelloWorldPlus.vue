@@ -1,13 +1,18 @@
 <template>
-  <div class="plus m-5">
+  <div class="plus mx-auto">
     <div class="input-group mb-3">
       <div class="input-group-prepend">
         <span class="input-group-text">Kérem a neved</span>
       </div>
       <input v-model="nev" type="text" class="form-control" />
     </div>
-
-    <h1>Hello {{ nev }}{{ felkialtojelek }}</h1>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">X-ek:</span>
+      </div>
+      <input v-model="xek" type="text" class="form-control" />
+    </div>
+    <h1>Hello {{ nev }} {{ xek }} {{ felkialtojelek }}</h1>
     <p>Felkiáltójelek száma: {{ felkialtojelDarab }}</p>
     <button type="button" class="btn m-2 btn-success" :disabled="felkialtojelDarab == 10" @click="onClick('+')">
       Plus
@@ -39,6 +44,7 @@ import { Component, Vue, Watch } from "vue-property-decorator";
 export default class HelloWorldPlus extends Vue {
   private felkialtojelDarab: number;
   private nev: string;
+  private xek: string;
   private felkialtojelek: string;
   private napok = ["hétfő", "kedd", "szerda"];
   private inputNap: string;
@@ -48,11 +54,25 @@ export default class HelloWorldPlus extends Vue {
     this.felkialtojelDarab = 3;
     this.nev = "Jedlik Ányos";
     this.felkialtojelek = "!!!";
+    this.xek = "";
     this.inputNap = "";
   }
 
   created() {
-    setInterval(() => (this.nev += "X"), 3000);
+    setInterval(() => {
+      let wrongCharPos: number = 0;
+      for (let i = 0; i < this.xek.length; i++) {
+        if (this.xek[i].toLowerCase() != "x") {
+          wrongCharPos = i;
+          break;
+        }
+      }
+      if (wrongCharPos != 0) {
+        this.xek = this.xek.replace(this.xek[wrongCharPos], "X");
+      } else {
+        this.xek += this.xek.length < 20 ? "X" : "";
+      }
+    }, 3000);
   }
 
   private onClick(művelet: string): void {
@@ -97,6 +117,11 @@ export default class HelloWorldPlus extends Vue {
 <style scoped>
 .plus {
   background-color: azure;
+  width: 40vw;
+}
+
+ol {
+  list-style-position: inside;
 }
 
 h1 {

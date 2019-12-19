@@ -1,5 +1,5 @@
 <template>
-  <div class="hello m-5">
+  <div class="hello mx-auto">
     <!-- v-bind:title röviden :title -->
     <!-- v-on:click röviden @click -->
     <h1 :title="message" @click="showHide()">{{ msg }} {{ currentDateTime }}</h1>
@@ -33,6 +33,7 @@ export default class HelloWorldExt extends Vue {
 <style scoped>
 .hello {
   background-color: lemonchiffon;
+  width: 40vw;
 }
 h1 {
   color: red;
