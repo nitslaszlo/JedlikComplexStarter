@@ -26,7 +26,6 @@
     "prettier/prettier": "error",
     "comma-dangle": ["error", "never"],
     "no-return-assign": "off",
-    "linebreak-style": ["error", "windows"],
     "quotes": ["error", "double"],
     "semi": ["error", "always"],
     "unicode-bom": ["error", "never"]
