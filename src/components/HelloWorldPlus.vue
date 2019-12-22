@@ -8,7 +8,7 @@
     </div>
     <div class="input-group mb-3">
       <div class="input-group-prepend">
-        <span class="input-group-text">X-ek:</span>
+        <span class="input-group-text">10 darab X:</span>
       </div>
       <input v-model="xek" type="text" class="form-control" />
     </div>
@@ -68,9 +68,17 @@ export default class HelloWorldPlus extends Vue {
         }
       }
       if (wrongCharPos != 0) {
-        this.xek = this.xek.replace(this.xek[wrongCharPos], "X");
+        if (this.xek.length <= 10) {
+          this.xek = this.xek.replace(this.xek[wrongCharPos], "X");
+        } else {
+          this.xek = this.xek.replace(this.xek[wrongCharPos], "");
+        }
       } else {
-        this.xek += this.xek.length < 20 ? "X" : "";
+        if (this.xek.length < 10) {
+          this.xek += "X";
+        } else if (this.xek.length > 10) {
+          this.xek = this.xek.slice(0, -1);
+        }
       }
     }, 3000);
   }
