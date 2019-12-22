@@ -1,7 +1,7 @@
 # Jedlik Complex Starter
 
 ## netlify link a program teszteléséhez:
-https://stoic-euclid-0535e9.netlify.com/
+https://jedlik-complex-starter.netlify.com/
 
 ## Sablonban használt technológiák / megoldások:
 =================================================
