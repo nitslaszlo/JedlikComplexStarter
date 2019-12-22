@@ -60,6 +60,12 @@
         <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a>
       </li>
     </ul>
+    <h3>Source code</h3>
+    <ul>
+      <li>
+        <a href="https://github.com/nitslaszlo/JedlikComplexStarter" target="_blank" rel="noopener">github.com/nitslaszlo/JedlikComplexStarter</a>
+      </li>
+    </ul>
   </div>
 </template>
 
