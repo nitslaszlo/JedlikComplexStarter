@@ -15,6 +15,7 @@ https://jedlik-complex-starter.netlify.com/
 2. Frontend development:
     - TypeScript (http://www.typescriptlang.org/)
     - ES Lint (https://eslint.org/)
+    - Prettier Code formatter (https://prettier.io/)
     - VUE CLI 3 (https://cli.vuejs.org/)
     - Jest (https://jestjs.io/)
 
@@ -30,7 +31,7 @@ https://jedlik-complex-starter.netlify.com/
     https://code.visualstudio.com/Download<br>
     (User installer: "%LocalAppData%\Programs\Microsoft VS Code\bin" települ!)
 4.  VSCode futtatása, Visual Studio Extensions telepítése: Ctrl-Shift-X<br>
-     Javasolt kiterjesztések keresése, telepítés:<br>
+    Kiterjesztések keresése, telepítés:<br>
 
     - Auto Rename Tag<br>
     https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
