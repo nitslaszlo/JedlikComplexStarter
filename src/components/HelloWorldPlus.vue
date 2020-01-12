@@ -60,14 +60,14 @@ export default class HelloWorldPlus extends Vue {
 
   created() {
     setInterval(() => {
-      let wrongCharPos: number = 0;
+      let wrongCharPos: number = -1;
       for (let i = 0; i < this.xek.length; i++) {
         if (this.xek[i].toLowerCase() != "x") {
           wrongCharPos = i;
           break;
         }
       }
-      if (wrongCharPos != 0) {
+      if (wrongCharPos != -1) {
         if (this.xek.length <= 10) {
           this.xek = this.xek.replace(this.xek[wrongCharPos], "X");
         } else {
