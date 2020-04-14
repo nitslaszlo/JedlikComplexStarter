@@ -14,8 +14,8 @@ import HelloWorldPlus from "@/components/HelloWorldPlus.vue";
 @Component({
   components: {
     HelloWorldExt,
-    HelloWorldPlus
-  }
+    HelloWorldPlus,
+  },
 })
 export default class Home2 extends Vue {}
 </script>

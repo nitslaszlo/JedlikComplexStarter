@@ -1,5 +1,8 @@
 {
   "editor.minimap.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "eslint.alwaysShowStatus": true,
   "eslint.enable": true,
   "eslint.validate": [
@@ -11,19 +14,19 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[javascriptreact]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[typescript]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[typescriptreact]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[vue]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "spellright.language": ["en", "hu"],
   "spellright.documentTypes": ["latex"],
@@ -47,7 +50,4 @@
   "git.confirmSync": false,
   "git.autofetchPeriod": 60,
   "git.autofetch": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
 }

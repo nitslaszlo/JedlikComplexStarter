@@ -33,34 +33,34 @@ https://jedlik-complex-starter.netlify.com/
 4.  VSCode futtatása, Visual Studio Extensions telepítése: Ctrl-Shift-X<br>
     Kiterjesztések keresése, telepítés:<br>
 
-    - Auto Rename Tag<br>
+    - Auto Rename Tag (telepítése opcionális, nyitó és záró tagek szinkron átnevezése)<br>
     https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
 
-    - Debugger for Chrome<br>
+    - Debugger for Chrome (nyomkövetéshez, fontos)<br>
     https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
 
-    - ESLint<br>
+    - EasyZoom (telepítése opcionális, nagyítás Ctrl + görgővel)<br>
+    https://marketplace.visualstudio.com/items?itemName=NabeelValley.easyzoom
+
+    - ESLint (linter, fontos)<br>
     https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 
     - GitLens (telepítése opcionális, kiterjesztett Git szolgáltatások)<br>
     https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 
-    - JavaScript (ES6) code snippets<br>
-    https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
-
-    - npm<br>
+    - npm (npm csomagok ellenőrzése)<br>
     https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script 
 
-    - npm Intellisense<br>
+    - npm Intellisense (autocompletes npm modules in import statements)<br>
     https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
 
-    - Prettier - Code formatter<br>
+    - Prettier - Code formatter (forráskód formázó, fontos)<br>
     https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 
     - Spell Right (telepítése opcionális, angol-magyar helyesírásellenőrzés)<br>
     https://marketplace.visualstudio.com/items?itemName=ban.spellright
 
-    - Vetur<br>
+    - Vetur (Vue.js syntax-kemelés, snippet, emmet, linting / error checking, Auto Completion, Debugging, fontos)<br>
     https://marketplace.visualstudio.com/items?itemName=octref.vetur
 
     - vscode-pdf (telepítése opcionális, beépülő PDF olvasó)<br>

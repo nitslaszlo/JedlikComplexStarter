@@ -10,8 +10,8 @@ import VuexDemoComp from "@/components/VuexDemoComp.vue"; // @ is an alias to /s
 
 @Component({
   components: {
-    VuexDemoComp
-  }
+    VuexDemoComp,
+  },
 })
 export default class VuexDemo extends Vue {}
 </script>
