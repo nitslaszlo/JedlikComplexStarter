@@ -14,9 +14,7 @@
     </div>
     <h1>Hello {{ nev }} {{ xek }} {{ felkialtojelek }}</h1>
     <p>Felkiáltójelek száma: {{ felkialtojelDarab }}</p>
-    <button type="button" class="btn m-2 btn-success" :disabled="felkialtojelDarab == 10" @click="onClick('+')">
-      Plus
-    </button>
+    <button type="button" class="btn m-2 btn-success" :disabled="felkialtojelDarab == 10" @click="onClick('+')">Plus</button>
     <button type="button" class="btn btn-danger" :disabled="felkialtojelDarab == 1" @click="onClick('-')">Minus</button>
     <ol>
       <li v-for="nap in napok" :key="nap">{{ nap }}</li>
@@ -28,12 +26,8 @@
       <input v-model="inputNap" type="text" class="form-control" />
     </div>
 
-    <button type="button" class="btn mr-2 btn-success" :disabled="!joNapHozzadni(iNap)" @click="hozzadNap()">
-      Nap hozzáadása
-    </button>
-    <button type="button" class="btn btn-danger" :disabled="!joNapTorolni(iNap)" @click="torolNap()">
-      Nap törlése
-    </button>
+    <button type="button" class="btn mr-2 btn-success" :disabled="!joNapHozzadni(iNap)" @click="hozzadNap()">Nap hozzáadása</button>
+    <button type="button" class="btn btn-danger" :disabled="!joNapTorolni(iNap)" @click="torolNap()">Nap törlése</button>
   </div>
 </template>
 
