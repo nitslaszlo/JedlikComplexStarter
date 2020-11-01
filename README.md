@@ -39,9 +39,6 @@ https://jedlik-complex-starter.netlify.com/
     - Debugger for Chrome (nyomkövetéshez, fontos)<br>
     https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
 
-    - EasyZoom (telepítése opcionális, nagyítás Ctrl + görgővel)<br>
-    https://marketplace.visualstudio.com/items?itemName=NabeelValley.easyzoom
-
     - ESLint (linter, fontos)<br>
     https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 
