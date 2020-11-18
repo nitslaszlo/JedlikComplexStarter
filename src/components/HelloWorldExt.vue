@@ -14,6 +14,8 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
 export default class HelloWorldExt extends Vue {
+  // TypeScript 2.7 includes a strict class checking where all the properties should be initialized in the constructor.
+  // A workaround is to add the ! as a postfix to the variable name:
   @Prop() private msg!: string;
   private message: string = "Ez a title attributum";
   private show: boolean = true;
