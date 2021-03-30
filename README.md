@@ -20,7 +20,7 @@ https://jedlik-complex-starter.netlify.com/
     - Jest (https://jestjs.io/)
 
 ## Fejlesztői környezet telepítése, beállítása (Windows)
-1.  Node.js v13.x (pl.: node-v13.13.0-x64.msi) letöltése, telepítése:<br>
+1.  Node.js v14.x (pl.: node-v14.16.0-x64.msi) letöltése, telepítése:<br>
     https://nodejs.org/en/download/
 2.  Command prompt, npm frissítése, globális Node.js csomag(ok) telepítése:<br>
     "npm install -g npm@next" paranccsal<br>
