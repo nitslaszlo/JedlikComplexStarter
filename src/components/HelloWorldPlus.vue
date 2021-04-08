@@ -13,7 +13,7 @@
       <input v-model="xek" type="text" class="form-control" />
     </div>
     <h1>Hello {{ nev }} {{ xek }} {{ felkialtojelek }}</h1>
-    <p>Felkiáltójelek száma: {{ felkialtojelDarab }}</p>
+    <p>Felkiáltójelek darabszáma: {{ felkialtojelDarab }}</p>
     <button type="button" class="btn m-2 btn-success" :disabled="felkialtojelDarab == 10" @click="onClick('+')">Plus</button>
     <button type="button" class="btn btn-danger" :disabled="felkialtojelDarab == 1" @click="onClick('-')">Minus</button>
     <ol>
